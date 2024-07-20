@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #15299e; 
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+#time {
+    font-size: 6em;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.controls button {
+    font-size: 1em;
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#start {
+    background-color: #dfa812; 
+    color: #fff; 
+}
+
+#start:hover {
+    background-color: #d1b01b; 
+}
+
+#stop {
+    background-color: #e74c3c; 
+    color: #fff; 
+}
+
+#stop:hover {
+    background-color: #c0392b; 
+}
+
+#reset {
+    background-color: #9b1289; 
+    color: #fff; 
+}
+
+#reset:hover {
+    background-color: #bd10a0; 
+}
